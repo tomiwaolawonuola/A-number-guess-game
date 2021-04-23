@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(20, 3, 37);
+  position: relative;
+}
+
+.dashboard {
+  min-height: 80vh;
+  padding: 12px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.instructions {
+  position: relative;
+  top: -22rem;
+  padding: 12px;
+  display: grid;
+  place-items: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+  text-transform: uppercase;
+}
+
+input[type="number"] {
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  cursor: pointer;
+  background: rgb(153, 132, 173);
+  color: white;
+  border: none;
+}
+
+#reset {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+span {
+  color: red1;
+}
+
+@media screen and (max-width: 800px) {
+  .instructions {
+    margin-top: 3rem;
+  }
+}
